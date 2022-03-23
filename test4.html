@@ -42,7 +42,7 @@
             />
           </svg>
           <ul>
-            <li><a href="./landing.html" onclick="hideMenu()">Home</a></li>
+            <li><a href="./index.html" onclick="hideMenu()">Home</a></li>
             <li><a href="./page.html" onclick="hideMenu()">Events</a></li>
             <li><a href="./test4.html" onclick="hideMenu()">Team</a></li>
             <li><a href="./about.html" onclick="hideMenu()">About Us</a></li>
@@ -95,5 +95,19 @@
         </div>
       </div>
     </div>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      const bars = document.querySelector(".fa-bars");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+        bars.classList.add("hidden");
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-250px";
+        bars.classList.remove("hidden");
+      }
+    </script>
   </body>
 </html>
