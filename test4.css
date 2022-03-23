@@ -206,7 +206,7 @@ svg {
 
   .nav-container {
     backdrop-filter: blur(3px);
-    height: 20%;
+    /* height: 20%; */
   }
 }
 
@@ -321,4 +321,8 @@ svg {
   transition: font-size 600ms ease-out;
   font-size: x-large;
   font-weight: bolder;
+}
+
+.hidden {
+  display: none;
 }
