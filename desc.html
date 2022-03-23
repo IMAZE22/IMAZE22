@@ -70,5 +70,19 @@
       <img src="./images-desc/Kaun Banega Chemist.png" alt="">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, eum soluta rem amet maiores eos iusto cupiditate ex minus numquam animi possimus dolores quas debitis quia? Nemo dolorem quod sequi distinctio voluptas blanditiis ad doloremque ab ipsum, molestiae, culpa in maiores libero adipisci consectetur facilis non illo fugit cum consequatur. Dolores rem quaerat, autem at numquam nostrum iure architecto libero.</p>
     </div>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      const bars = document.querySelector(".fa-bars");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+        bars.classList.add("hidden");
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-250px";
+        bars.classList.remove("hidden");
+      }
+    </script>
 </body>
 </html>
