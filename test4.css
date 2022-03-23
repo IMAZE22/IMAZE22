@@ -322,3 +322,7 @@ svg {
   font-size: x-large;
   font-weight: bolder;
 }
+
+.hidden {
+  display: none;
+}
