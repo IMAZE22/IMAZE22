@@ -240,3 +240,8 @@ svg {
 .hidden {
   display: none;
 }
+@media (max-width: 512px) {
+  .box {
+    width: 100%;
+  }
+}
