@@ -188,7 +188,7 @@ svg {
 
   .nav-container {
     backdrop-filter: blur(3px);
-    height: 20%;
+    /* height: 20%; */
   }
 }
 .hidden {

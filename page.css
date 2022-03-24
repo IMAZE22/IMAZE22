@@ -320,7 +320,7 @@ svg {
   }
   .nav-container {
     backdrop-filter: blur(3px);
-    height: 21%;
+    /* height: 21%; */
   }
 }
 .hidden {
