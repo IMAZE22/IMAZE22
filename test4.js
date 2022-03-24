@@ -18,24 +18,6 @@ const obj = {
     { name: "Prabdeep Singh Ghatora", info: "design head" },
     { name: "Anurag Sen", info: "design head" },
   ],
-  "Department coordinator": [
-    { name: "Hemang Barai", info: "civil department" },
-    { name: "Nidhi Patel", info: "civil department" },
-    { name: "Dipti Rathod", info: "chemical department" },
-    { name: "Avni Chavda", info: "chemical department" },
-    { name: "Dhyey Dodiya", info: "computer department" },
-    { name: "Dhruvi Vadariya", info: "computer department" },
-    { name: "Rishi Sha", info: "EC department" },
-    { name: "Richa Mishra", info: "EC department" },
-    { name: "Helly Parikh", info: "electrical department" },
-    { name: "Dhaval Kalathiya", info: "electrical department" },
-    { name: "Kanti Patel", info: "IT department" },
-    { name: "Dharvi Kaneriya", info: "IT department" },
-    { name: "Shyama Kareliya", info: "Mechatronics department" },
-    { name: "Dhruvil Nakum", info: "mechatronics department" },
-    { name: "Harsh joshi", info: "mechanical department" },
-    { name: "Sarang Pandya", info: "mechanical department" },
-  ],
   Publicity: [
     { name: "Parth Thakar", info: "coordinator" },
     { name: "Krunalsinh Rana", info: "coordinator" },
@@ -54,8 +36,25 @@ const obj = {
     { name: "Ayushi Upadhyay", info: "coordinator" },
     { name: "Prashant Acharya", info: "coordinator" },
   ],
+  "Department coordinator": [
+    { name: "Hemang Barai", info: "civil department" },
+    { name: "Nidhi Patel", info: "civil department" },
+    { name: "Dipti Rathod", info: "chemical department" },
+    { name: "Avni Chavda", info: "chemical department" },
+    { name: "Dhyey Dodiya", info: "computer department" },
+    { name: "Dhruvi Vadariya", info: "computer department" },
+    { name: "Rishi Sha", info: "EC department" },
+    { name: "Richa Mishra", info: "EC department" },
+    { name: "Helly Parikh", info: "electrical department" },
+    { name: "Dhaval Kalathiya", info: "electrical department" },
+    { name: "Kanti Patel", info: "IT department" },
+    { name: "Dharvi Kaneriya", info: "IT department" },
+    { name: "Shyama Kareliya", info: "Mechatronics department" },
+    { name: "Dhruvil Nakum", info: "mechatronics department" },
+    { name: "Harsh joshi", info: "mechanical department" },
+    { name: "Sarang Pandya", info: "mechanical department" },
+  ],
 };
-
 
 createRow = (title, data) => {
   const row = document.createElement("div");
@@ -66,7 +65,7 @@ createRow = (title, data) => {
     card.classList.add("show");
     card.innerHTML = `
         
-        <img src="assets/${e.name}.jpg">
+        <img src="assets/${e.name}.png">
         <div class="data">
             <p>${e.name}</p>
             <p>${e.info}</p>

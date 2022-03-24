@@ -13,13 +13,23 @@
   z-index: -2;
   object-fit: cover;
 }
+.intro {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  margin-top: 50px;
+  opacity: 0.7;
+}
 /* Navbar */
 body {
   height: 800px;
   background: #0f071f;
   font-family: "Roboto Mono", monospace;
 }
-
 .nav-container {
   display: flex;
   justify-content: space-evenly;
@@ -30,8 +40,17 @@ body {
   height: 108px;
   backdrop-filter: blur(3px);
   z-index: 5;
+  animation: animate 3.3s ease-in;
 }
 
+@keyframes animate {
+  0% {
+    transform: translateY(-108px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 .nav-container::before {
   content: "";
   position: absolute;
@@ -73,7 +92,8 @@ nav #logo {
 }
 .nav-links ul {
   margin-top: 15px;
-  width: 500px;
+  margin-right: 100px;
+  width: 600px;
 }
 .nav-links ul li {
   list-style: none;
