@@ -17,8 +17,8 @@
 /* Navbar */
 body {
   height: 800px;
-  background: #0f071f;
   font-family: "Roboto Mono", monospace;
+  background: #0f071f;
 }
 
 .nav-container {
@@ -74,7 +74,8 @@ nav #logo {
 }
 .nav-links ul {
   margin-top: 15px;
-  width: 500px;
+  width: 600px;
+  margin-right: 100px;
 }
 .nav-links ul li {
   list-style: none;

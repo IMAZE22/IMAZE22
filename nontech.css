@@ -73,6 +73,8 @@ nav #logo {
 }
 .nav-links ul {
   margin-top: 15px;
+  margin-right: 100px;
+  width: 600px;
 }
 .nav-links ul li {
   list-style: none;
@@ -228,6 +230,7 @@ svg {
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
   cursor: pointer;
+  color: #000;
 }
 
 .container .card {

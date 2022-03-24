@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #161623;
   color: #fff;
@@ -84,7 +88,7 @@ h2 {
 .container .box .content hr {
   height: 3px;
   width: 0%;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   opacity: 0;
   transition: 0.5s ease-in-out;
 }
@@ -100,7 +104,7 @@ h2 {
 
 .container .box .content h3 {
   font-size: 1.4rem;
-  margin: 5px 0 10px 0;
+  margin: -13px 0 15px 0;
   font-weight: 700;
 }
 
@@ -165,6 +169,8 @@ nav #logo {
 }
 .nav-links ul {
   margin-top: 15px;
+  margin-right: 100px;
+  width: 600px;
 }
 .nav-links ul li {
   list-style: none;

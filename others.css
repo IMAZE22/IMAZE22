@@ -72,6 +72,8 @@ nav #logo {
 }
 .nav-links ul {
   margin-top: 15px;
+  margin-right: 100px;
+  width: 600px;
 }
 .nav-links ul li {
   list-style: none;
