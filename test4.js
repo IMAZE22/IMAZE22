@@ -56,6 +56,7 @@ const obj = {
   ],
 };
 
+
 createRow = (title, data) => {
   const row = document.createElement("div");
   row.classList.add("row");
@@ -103,6 +104,7 @@ function addObserver(el, options) {
     // We don't need to execute the rest of the code
     return;
   }
+
   let observer = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -118,4 +120,5 @@ function addObserver(el, options) {
   observer.observe(el);
 }
 scrollTrigger(".title");
+
 //   scrollTrigger('.data')
