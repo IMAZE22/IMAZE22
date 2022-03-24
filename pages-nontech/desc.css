@@ -8,6 +8,7 @@
 
 body {
   font-family: "Roboto Mono", monospace;
+  background: #000;
 }
 
 .clip {
@@ -242,6 +243,6 @@ svg {
 }
 @media (max-width: 512px) {
   .box {
-    width: 100%;
+    width: 90%;
   }
 }
