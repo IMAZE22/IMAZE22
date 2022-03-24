@@ -74,8 +74,8 @@ nav #logo {
 }
 .nav-links ul {
   margin-top: 15px;
-  width: 600px;
   margin-right: 100px;
+  width: 600px;
 }
 .nav-links ul li {
   list-style: none;
@@ -199,14 +199,13 @@ svg {
   width: 80%;
   padding: 10px 20px;
   border-radius: 10px;
-  position: fixed;
   background: rgba(255, 255, 255, 0.6);
-  position: fixed;
+  position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  margin-top: 30px;
+  margin: 55px 0 30px;
   box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.4);
 }
 
@@ -214,21 +213,17 @@ svg {
   width: 300px;
   height: 220px;
   margin: auto;
-  /* width: 141%;
-  height: 67%;
-  position: absolute;
-  top: 35px;
-  left: -55px; */
 }
 
 .box h3 {
-  margin: -42px 0 20px;
+  margin: -25px 0 15px;
   font-size: 1.5rem;
   font-weight: 800;
+  text-align: center;
 }
 
 .box p {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   text-align: justify;
   padding: 10px;
   font-family: "Titillium Web", sans-serif;
@@ -239,15 +234,10 @@ svg {
 
 @media (max-width: 1150px) {
   .box {
-    margin-top: 55px;
-  }
-
-  .box img {
-    width: 350px;
-    height: 250px;
+    margin-top: 130px;
+    margin-bottom: 100px;
   }
 }
-
 .hidden {
   display: none;
 }
