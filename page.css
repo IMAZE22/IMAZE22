@@ -101,7 +101,7 @@ body {
   color: #fff;
 }
 
-.container .card .box .content {
+.container .card .box .content a {
   position: relative;
   display: inline-block;
   padding: 8px 20px;
@@ -112,12 +112,12 @@ body {
   color: #fff;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-/* 
-.container a: -webkit-any-link {
+
+.container .card .box .content a: -webkit-any-link {
  color:none;
   cursor:pointer;
   text-decoration:none;
-} */
+}
 
 .container .card .box .content a:hover {
   transform: scale(0.9);
