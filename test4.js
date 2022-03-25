@@ -18,17 +18,18 @@ const obj = {
     { name: "Prabdeep Singh Ghatora", info: "design head" },
     { name: "Anurag Sen", info: "design head" },
   ],
-  Publicity: [
-    { name: "Parth Thakar", info: "coordinator" },
-    { name: "Krunalsinh Rana", info: "coordinator" },
-    { name: "Darpan Parekh", info: "coordinator" },
-  ],
   Logistics: [
     { name: "Dhruv Chadderwala", info: "logistics coordinator" },
     { name: "Kunal Rajpurohit", info: "logistics coordinator" },
     { name: "Nadir Ali Khoja", info: "logistics coordinator" },
     { name: "Vrund Thakkar", info: "logistics coordinator" },
   ],
+  Publicity: [
+    { name: "Parth Thakar", info: "coordinator" },
+    { name: "Krunalsinh Rana", info: "coordinator" },
+    { name: "Darpan Parekh", info: "coordinator" },
+  ],
+
   VFX: [{ name: "Yash Ranpariya", info: "head" }],
   Decoration: [
     { name: "Darshan Modi", info: "coordinator" },

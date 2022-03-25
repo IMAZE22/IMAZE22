@@ -134,6 +134,11 @@ svg {
 }
 
 @media (max-width: 1150px) {
+  .intro {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+  }
   .nav-links ul li {
     display: block;
   }
@@ -188,7 +193,7 @@ svg {
     border-radius: 50%;
   }
 
-  .nav-links ul li a {
+  .nav-links ul li {
     color: #fff;
   }
 
